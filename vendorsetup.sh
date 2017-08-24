@@ -1,0 +1,3 @@
+add_lunch_combo aoscp_herolte-eng
+add_lunch_combo aoscp_herolte-userdebug
+add_lunch_combo aoscp_herolte-user
