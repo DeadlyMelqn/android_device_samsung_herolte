@@ -1,4 +1,4 @@
-# Inherit device configuration 
+# Inherit device configuration
 $(call inherit-product, device/samsung/herolte/herolte.mk)
 $(call inherit-product, device/samsung/hero-common/hero-common.mk)
 
@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common AOSP stuff.
- $(call inherit-product, vendor/xos/common.mk)
+ $(call inherit-product, vendor/xos/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := XOS_herolte
