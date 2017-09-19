@@ -33,5 +33,6 @@ $(call inherit-product, vendor/aosp/common.mk)
 PRODUCT_NAME := aosp_herolte
 PRODUCT_DEVICE := herolte
 PRODUCT_BRAND := samsung
+PRODUCT_MODEL := SM-G930F
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
